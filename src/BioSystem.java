@@ -232,6 +232,7 @@ public class BioSystem {
         }
 
         microhabitats = updated_microhabs;
+        //System.out.println("nImmigrants: "+n_immigrants);
         immigrate(getBiofilmEdge(), n_immigrants);
         updateBiofilmSize();
         timeElapsed+=tau_step;
@@ -273,12 +274,13 @@ public class BioSystem {
         //pop distb over time
         //biofilm edge over time
         //avg genotype distb over time
+        long startTime = System.currentTimeMillis();
 
         int K = 500, L = 500;
         double c_max = 10., alpha = 0.01, tau = 0.01;
 
-        int nReps = 10, nMeasurements = 20;
-        double duration = 100., interval = duration/nMeasurements;
+        int nReps = 10, nMeasurements = 40;
+        double duration = 200., interval = duration/nMeasurements;
 
         String popSizeFilename = "pyrithione-testing-pop_size-t="+String.valueOf(duration);
         String popDistbFilename = "pyrithione-testing-pop_distb-t="+String.valueOf(duration);
@@ -362,7 +364,12 @@ public class BioSystem {
         Toolbox.writeAveragedDistbsToFile(avgGenotypeDistbFilename, processedAvgGenotypeDistbs);
         Toolbox.writeAveragedDistbsToFile(genoStDevDistbFilename, processedGenoStDevs);
 
+        long finishTime = System.currentTimeMillis();
+
+        String diff = Toolbox.millisToShortDHMS(finishTime - startTime);
+
         System.out.println("results written to file");
+        System.out.println("Time taken: "+diff);
     }
 
 

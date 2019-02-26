@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d246528-e525-46ab-a57e-2b777a76272f" name="Default" comment="" />
+    <list default="true" id="6d246528-e525-46ab-a57e-2b777a76272f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/BioSystem.class" afterPath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/BioSystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/PyrithioneMain.class" afterPath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/PyrithioneMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/Toolbox.class" afterPath="$PROJECT_DIR$/out/production/Pyrithione-v4-Tau/Toolbox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BioSystem.java" afterPath="$PROJECT_DIR$/src/BioSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PyrithioneMain.java" afterPath="$PROJECT_DIR$/src/PyrithioneMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Toolbox.java" afterPath="$PROJECT_DIR$/src/Toolbox.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +24,8 @@
       <file leaf-file-name="PyrithioneMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PyrithioneMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +36,8 @@
       <file leaf-file-name="Microhabitat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Microhabitat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+            <state relative-caret-position="371">
+              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2065#2066#0" expanded="true" />
@@ -45,8 +54,8 @@
       <file leaf-file-name="BioSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BioSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4881">
-              <caret line="57" column="94" lean-forward="false" selection-start-line="57" selection-start-column="94" selection-end-line="57" selection-end-column="94" />
+            <state relative-caret-position="1609">
+              <caret line="357" column="60" lean-forward="true" selection-start-line="357" selection-start-column="60" selection-end-line="357" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
@@ -63,8 +72,8 @@
       <file leaf-file-name="Toolbox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Toolbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="154" column="5" lean-forward="false" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +90,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -91,8 +103,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Microhabitat.java" />
         <option value="$PROJECT_DIR$/src/Toolbox.java" />
-        <option value="$PROJECT_DIR$/src/BioSystem.java" />
         <option value="$PROJECT_DIR$/src/PyrithioneMain.java" />
+        <option value="$PROJECT_DIR$/src/BioSystem.java" />
       </list>
     </option>
   </component>
@@ -101,6 +113,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1018" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -287,8 +300,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33142856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -317,36 +330,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Toolbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BioSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4881">
-          <caret line="57" column="94" lean-forward="false" selection-start-line="57" selection-start-column="94" selection-end-line="57" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Microhabitat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+        <state relative-caret-position="371">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2065#2066#0" expanded="true" />
@@ -359,10 +346,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyrithione-testing-biofilm_edge-t=100.0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toolbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="154" column="5" lean-forward="false" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BioSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1609">
+          <caret line="357" column="60" lean-forward="true" selection-start-line="357" selection-start-column="60" selection-end-line="357" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PyrithioneMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
