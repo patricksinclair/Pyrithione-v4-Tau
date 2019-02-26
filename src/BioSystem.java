@@ -190,7 +190,6 @@ public class BioSystem {
                         n_deaths[bac_index] = new PoissonDistribution(Math.abs(g_or_d_rate)*tau_step).sample();
                         if(n_deaths[bac_index] > 1){
                             tau_step/=2.;
-                            System.out.println("DOUBLE DEATH HANDLED");
                             continue whileloop;
                         }
                     }
@@ -322,12 +321,13 @@ public class BioSystem {
                 if((bs.getTimeElapsed()%interval >= 0. && bs.getTimeElapsed()%interval <= 0.1*interval) && !alreadyRecorded){
 
                     int bf_edge_i = bs.getBiofilmEdge();
+                    int max_poss_pop = bs.getBiofilmSize()*K;
 
                     String output = String.format("rep: %d \ttime elapsed: %.3f \ttotal N: %d \tbiofilm edge: %d \tbf_edge pop %d \tbf_edge fracfull: %.3f",
                             r, bs.getTimeElapsed(), bs.getTotalN(), bs.getBiofilmEdge(), bs.getN_i(bf_edge_i), bs.microhabitats[bf_edge_i].fractionFull());
 
-                    String output2 = String.format("rep: %d \ttime elapsed: %.3f \ttotal N: %d \tbiofilm edge: %d, bf_edge pop: %d",
-                            r, bs.getTimeElapsed(), bs.getTotalN(), bs.getBiofilmEdge(), bs.getN_i(bf_edge_i));
+                    String output2 = String.format("rep: %d \ttime elapsed: %.3f \ttotal N: %d/%d \tbiofilm edge: %d, bf_edge pop: %d",
+                            r, bs.getTimeElapsed(), bs.getTotalN(), max_poss_pop, bs.getBiofilmEdge(), bs.getN_i(bf_edge_i));
 
                     System.out.println(output2);
 
